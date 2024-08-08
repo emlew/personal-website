@@ -1,9 +1,14 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./app/App.tsx";
+import React from "react";
+import { CssBaseline, ThemeProvider, theme } from "./styles";
+import { App } from "./app";
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+  <React.StrictMode>
+    <React.Suspense>
+      <ThemeProvider theme={theme}>
+        <CssBaseline /> <App />
+      </ThemeProvider>
+    </React.Suspense>
+  </React.StrictMode>
 );
