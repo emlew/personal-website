@@ -1,20 +1,20 @@
 import { PaletteOptions } from "@mui/material";
 
 const colors = {
-  black: "#00002B",
-  white: "#FAFAFA",
+  black: "#0A0F19",
+  white: "#FEF7F0",
 
-  primary900: "#1E1E59",
-  primary700: "#31377c",
-  primary500: "#3f4890",
-  primary300: "#767eaf",
-  primary100: "#c2c6dd",
+  primary100: "#E9EDF6",
+  primary300: "#BAC7E3",
+  primary500: "#8FA4D1",
+  primary700: "#3D5994",
+  primary900: "#151E33",
 
-  secondary900: "#9d0050",
-  secondary700: "#d70056",
-  secondary500: "#fe005c",
-  secondary300: "#ff518f",
-  secondary100: "#ffb8d0",
+  secondary100: "#FEF7F0",
+  secondary300: "#FDE3CE",
+  secondary500: "#FCD0AB",
+  secondary700: "#F67409",
+  secondary900: "#542703",
 };
 
 export const palette: PaletteOptions = {

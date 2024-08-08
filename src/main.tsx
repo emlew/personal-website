@@ -6,9 +6,9 @@ import { App } from "./app";
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <React.Suspense>
-          <ThemeProvider theme={theme}>
-            <CssBaseline /> <App />
-          </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline /> <App />
+      </ThemeProvider>
     </React.Suspense>
   </React.StrictMode>
 );
