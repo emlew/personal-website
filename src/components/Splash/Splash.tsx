@@ -11,7 +11,22 @@ export const Splash: React.FC = () => {
     <StyledWrapper>
       <StyledTitle variant="h3">Hello, I'm Emily Lewis.</StyledTitle>
       <StyledImage src={picture} />
-      <StyledQuickInfo>Info</StyledQuickInfo>
+      <StyledQuickInfo
+        sx={{
+          top: "40%",
+          left: "75%",
+        }}
+      >
+        I'm a software developer from the Midwest.
+      </StyledQuickInfo>
+      <StyledQuickInfo
+        sx={{
+          top: "70%",
+          left: "25%",
+        }}
+      >
+        I like to design and build great products.
+      </StyledQuickInfo>
     </StyledWrapper>
   );
 };

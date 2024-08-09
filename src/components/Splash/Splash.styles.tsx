@@ -34,7 +34,6 @@ export const StyledTitle = styled(Typography)({
 
 export const StyledQuickInfo = styled(Card)({
   position: "absolute",
-  top: "60%",
-  left: "70%",
   transform: "translate(-50%, -50%)",
+  whiteSpace: "nowrap",
 });
