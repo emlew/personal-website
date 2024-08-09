@@ -2,7 +2,7 @@ import { PaletteOptions } from "@mui/material";
 
 const colors = {
   black: "#0A0F19",
-  white: "#FFF9F5",
+  white: "#F4F6FB",
 
   primary50: "#F4F6FB",
   primary100: "#E9EDF6",
