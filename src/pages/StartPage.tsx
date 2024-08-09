@@ -1,5 +1,10 @@
-import { Splash } from "@/components";
+import { ContactInfo, Splash } from "@/components";
 
 export const StartPage: React.FC = () => {
-  return <Splash />;
+  return (
+    <>
+      <Splash />
+      <ContactInfo />
+    </>
+  );
 };
