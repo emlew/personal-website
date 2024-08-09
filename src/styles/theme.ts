@@ -1,4 +1,4 @@
-import { MuiLink, MuiButton } from "./MuiComponentDefaults";
+import { MuiLink, MuiButton, MuiCard } from "./MuiComponentDefaults";
 import { palette } from "./theme/palette";
 import { createTheme } from "@mui/material/styles";
 
@@ -7,6 +7,7 @@ const theme = createTheme({
   components: {
     MuiLink,
     MuiButton,
+    MuiCard,
   },
 });
 
