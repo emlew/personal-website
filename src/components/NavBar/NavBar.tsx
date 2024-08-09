@@ -8,7 +8,7 @@ import {
   StyledNavBar,
 } from "./NavBar.styles";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
-import bike from "../../../public/bike.svg";
+import bike from "@/assets/bike.svg";
 
 export const NavBar: React.FC = () => {
   const navigate = useNavigate();
