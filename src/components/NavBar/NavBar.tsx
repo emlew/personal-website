@@ -31,9 +31,6 @@ export const NavBar: React.FC = () => {
         <Link component={RouterLink} to="/">
           Home
         </Link>
-        <Link component={RouterLink} to="/about">
-          About
-        </Link>
         <Link component={RouterLink} to="/projects">
           Projects
         </Link>
