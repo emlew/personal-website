@@ -1,7 +1,5 @@
-import { Typography } from "@mui/material";
+import { AllProjects } from "@/components";
 
 export const ProjectsPage: React.FC = () => {
-  return (
-    <Typography>Project Page</Typography>
-  );
+  return <AllProjects />;
 };

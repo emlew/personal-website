@@ -10,7 +10,7 @@ export const Projects: React.FC = () => {
 
   return (
     <StyledWrapper>
-      {projects.map((p) => (
+      {projects.slice(0,2).map((p) => (
         <ProjectCard key={p.title} title={p.title} icon={p.icon} link={p.link}>
           {p.description}
         </ProjectCard>

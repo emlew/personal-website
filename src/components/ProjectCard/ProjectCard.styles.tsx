@@ -10,7 +10,7 @@ export const StyledCard = styled(Card)({
   "&:hover": {
     backgroundColor: theme.palette.secondary[200],
     boxShadow: `${theme.palette.secondary[500]} 0px 0px 0px 2px`,
-    border: `${theme.palette.common.white} solid 2px`,
+    border: `${theme.palette.common.white} solid 1px`,
   },
 });
 
