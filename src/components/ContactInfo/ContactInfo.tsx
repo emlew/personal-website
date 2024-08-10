@@ -2,6 +2,7 @@ import { StyledLogo, StyledWrapper } from "./ContactInfo.styles";
 import GitHub from "@/assets/github.svg";
 import LinkedIn from "@/assets/linkedin.svg";
 import Spotify from "@/assets/spotify.svg";
+import GoodReads from "@/assets/goodreads.svg";
 import { Link } from "@mui/material";
 
 type Contact = {
@@ -25,6 +26,11 @@ const contacts: Contact[] = [
     image: Spotify,
     alt: "Link to Spotify",
     link: "https://open.spotify.com/user/em.lewi?si=b7cd18867b654a65",
+  },
+  {
+    image: GoodReads,
+    alt: "Link to GoodReads",
+    link: "https://www.goodreads.com/user/show/159340810-emily-lewis",
   },
 ];
 
