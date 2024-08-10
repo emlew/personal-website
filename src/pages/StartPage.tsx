@@ -1,4 +1,4 @@
-import { ContactInfo, Splash, About, Projects } from "@/components";
+import { ContactInfo, Splash, About, Projects, Skills } from "@/components";
 
 export const StartPage: React.FC = () => {
   return (
@@ -7,6 +7,7 @@ export const StartPage: React.FC = () => {
       <ContactInfo />
       <About />
       <Projects />
+      <Skills />
     </>
   );
 };

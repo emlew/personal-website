@@ -11,7 +11,7 @@ export const Projects: React.FC = () => {
   return (
     <StyledWrapper>
       {projects.map((p) => (
-        <ProjectCard title={p.title} icon={p.icon} link={p.link}>
+        <ProjectCard key={p.title} title={p.title} icon={p.icon} link={p.link}>
           {p.description}
         </ProjectCard>
       ))}
