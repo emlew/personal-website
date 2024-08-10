@@ -10,3 +10,10 @@ export const MainContent = styled(Box)({
   width: "100vw",
   overflowX: "hidden",
 });
+
+export const StyledWrapper = styled(Box)({
+  position: "fixed",
+  height: "100vh",
+  width: "100vw",
+  overflow: "hidden",
+});

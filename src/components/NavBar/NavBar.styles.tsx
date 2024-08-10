@@ -1,6 +1,6 @@
 import { theme } from "@/styles";
 import styled from "@emotion/styled";
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 
 export const StyledNavBar = styled(Box)({
   display: "flex",
@@ -47,4 +47,8 @@ export const StyledLinks = styled(Box)({
   flexDirection: "row",
   gap: "40px",
   alignItems: "center",
+});
+
+export const StyledButton = styled(Button)({
+  gap: "8px",
 });

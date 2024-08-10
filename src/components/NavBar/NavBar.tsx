@@ -1,5 +1,6 @@
-import { Button, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import {
+  StyledButton,
   StyledImage,
   StyledImgWrapper,
   StyledLinks,
@@ -9,6 +10,7 @@ import {
 } from "./NavBar.styles";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import bike from "@/assets/bike.svg";
+import { Envelope } from "@phosphor-icons/react";
 
 export const NavBar: React.FC = () => {
   const navigate = useNavigate();
@@ -35,7 +37,17 @@ export const NavBar: React.FC = () => {
         <Link component={RouterLink} to="/projects">
           Projects
         </Link>
-        <Button variant="contained">Let's Talk</Button>
+        <StyledButton
+          variant="contained"
+          onClick={() =>
+            window.open(
+              "mailto:emilymlewis0@gmail.com?subject=From%20Your%20Website"
+            )
+          }
+        >
+          <Envelope />
+          Let's Talk
+        </StyledButton>
       </StyledLinks>
     </StyledNavBar>
   );
